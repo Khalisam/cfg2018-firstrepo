@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+  <!---meta info goes here--->
+<link href="qcdstyle.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="qcdImages/Moi.png">
+    <h1>Quelque Chose de Different</h1>
+    <ul>
+      <li><a href="#">About me</a></li>
+      <li><a href="#">Paintings</a></li>
+      <li><a href="#">Photography</a></li>
+      <li><a href="#">Writing</a></li>
+    </ul>
+
+  </header>
+  <!---page info goes here--->
+  <script>
+    $("button").on("click", function(){
+      alert("Clicked!")
+    });
+  </script>
+  <article>
+    <div>
+    <h2>His torso</h2>
+      <p>I imagined my hand on the middle of his muscular <span class="behave">torso</span>. I imagined how hot his skin would have been under my fingers and how would he feel about it. But I have not even looked at him for a second.
+I was going downstairs. Going to the prayer room maybe. To pray. To ease my need to cry all the time. To be better, to be happy. And I met him in the stairs. He was going up, walking and chatting with a friend. I had never seen him before and I don’t even remember his face. The only thing remaining in my head was his torso. A muscular one that I have seen my hand touching this second my eyes went on him in those stairs.
+I keep asking myself why? Where do that come from? So fast and so clear. I am asking myself if everyone is like that. As always. And my brain tells me “no!”. of course not. Can it be possible that people usually visualize that kind of things and nobody talk about it?<p>
+        <button>Like</button>
+      </div>
+      </article>
+<article>
+  <div>
+  <h2>His hair</h2>
+    <p>Curls… dark beautiful shining curls he has. Mixed chocolate and milk skin. Wonderful beard. I usually see beauty in almost everything I look at, or maybe I look for beauty in everything. But he catched my eyes with his hair.
+I was in the bus. Late at night again. Asking myself why? Or how? Thinking about making things better. Thinking and over thinking when he woke up. I don’t know how I realized that he was sleeping because I did not look at him. Or maybe I did. But then he looked like a child and nothing was special about him.
+But when he stood up in front of me, his hair catched my eyes, then his neck. One step after another, he was slowly heading to the bus’ stairs. I was admiring his beard now, perfectly cutted, his right jaw. He turned to take the first step of the stairs, and by doing so, he faced me. Oh! His eyebrows…
+I lowered my gaze. I shouldn’t have looked at him that far even. I looked through the window, but I was aware of how slow he was taking the stairs. I was asking to myself, what do I mine to be like? Oh Allah, how is he ? where is he ? when will I meet him ? I miss him so bad. That’s surely why I am looking at people that way. I really hope that when he’ll come, I will only have eyes for him…<p>
+      <button>Like</button>
+    </div>
+    </article>
+    <script>
+  $('div').on("click", function()){
+  $(this).toggleClass('show-description');
+  });
+</script>
+</body>
